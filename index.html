@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master DOM Manipulation: Part 1</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        
+        * {
+            
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+       .container
+       {
+        margin-bottom: 120px;
+       }
+        
+      
+          
+
+      
+
+      button {
+          display:inline-block;
+          font-size: 15px;
+        background: none;
+        border: solid 2px rgb(9, 9, 9);
+        color: rgb(16, 15, 15);
+        border-radius: 10px;
+        padding: 10px 30px;
+        margin-top: 10px;
+        margin-right: 5px;
+      }
+
+     
+    </style>
+    
+</head>
+
+<body>
+  <center>
+
+    <div class = "container">
+        <h1 id = "main-heading"> TO-DO LIST
+            
+        </h1>
+        <ul>
+        </ul>
+    </div>
+
+    <input class = "inp" type="text" placeholder="Enter task"></input>
+
+   <div>
+    
+    <button class =btn onclick="addtask()" >Add ask </button>
+    <button class =btn onclick="removetask()" >remove task </button>
+    <p></p>
+    </div>
+
+
+
+   
+
+    
+   <script src="app.js"></script>
+</body>
+</center>
+
+
+
+
+</html> 
